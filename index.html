@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="loveletter.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+    <!--<header>
+    <ul class="navlist">
+<li><a href="album.html">ALBUM</a></li>
+    </ul>
+    </header>-->
+
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Happy Birthday Mama,</strong>
+                        <p>
+                            Thank you for being the best mom in the world.
+                            I hope I can pay back all the money I owe you by the time I'm 30.
+                        </p>
+                        <strong>Sincerely, 
+                            Your favorite child</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+
+    <div class="mobile-img" ></div>
+
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
